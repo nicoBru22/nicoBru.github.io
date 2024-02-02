@@ -352,5 +352,9 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.carousel-item{
+		height: 100%;
+		width: 100%;
+	}
 }
 

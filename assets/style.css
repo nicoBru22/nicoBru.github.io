@@ -84,6 +84,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -281,6 +282,8 @@ input[type="submit"] {
 		text-align: center;
 		margin-top: 1em;
 	}
+	.about-me__introduction{
+		width: 100%;
 	#services .container {
 		flex-direction: column;
 	}
@@ -346,6 +349,8 @@ input[type="submit"] {
 		padding-inline: 2em;
 		padding-block: 2em;
 	}
+	.about-me__introduction{
+		width: 100%;
 	form {
 		width: 100%;
 	}

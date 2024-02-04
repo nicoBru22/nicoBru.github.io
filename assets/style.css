@@ -33,8 +33,9 @@ body {
 	padding-inline: 10px;
 	cursor: pointer;
 }
-.nav-link:focus{
-	background-color: red;
+.nav-link.active-tag{
+  background-color: #5A5006;
+  color: white;
 }
 
 .nav a {
@@ -110,9 +111,7 @@ body {
 	background-color: #5A5006;
 	border-radius:0 ;
 }
-.nav-pills .nav-link {
-	color: #000
-}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;

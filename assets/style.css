@@ -97,7 +97,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -192,6 +192,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+	overflow: auto;
 }
 
 #contact {
@@ -320,8 +321,13 @@ input[type="submit"] {
 		height: 30%;
 		position: absolute;
 		bottom: 0;
+		top: auto;
 		right: 0;
 		z-index: -1;
+	}
+	.formulaire{
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -341,6 +347,7 @@ input[type="submit"] {
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
+		width: 100%;
 	}
 	#services .container {
 		align-items: center;
@@ -354,10 +361,15 @@ input[type="submit"] {
 	}
 	.about-me__introduction{
 		width: 100%;
+	}
 	form {
 		width: 100%;
 	}
 	.picture {
 		width: 80%;
+	}
+	.formulaire{
+		display: flex;
+		flex-direction: column;
 	}
 }

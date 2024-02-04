@@ -31,6 +31,10 @@ body {
 
 .nav li {
 	padding-inline: 10px;
+	cursor: pointer;
+}
+.nav-link:focus{
+	background-color: red;
 }
 
 .nav a {
